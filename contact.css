@@ -1,0 +1,87 @@
+body{
+    background-color: grey;
+    color: gold;
+}
+.s1{
+    display: inline-flex;
+}
+.img1{
+    width: 170px;
+}
+.img1 {
+    width: 190px;
+    height: 125px;
+    border: color-mix(in srgb, gold 30%, orange 60%) groove 15px;
+}
+
+.img2 {
+    height: 30px;
+    border: 8px groove color-mix(in srgb, gold 30%, orange 50%);
+}
+label{
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+input{
+    background-color: gold;
+    color: grey;
+    border-color: gold;
+    height: 5vh;
+    width: 200px;
+    border: color-mix(in srgb, gold 100%, orange 10%) groove 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: obliue;
+}
+.h1{
+    text-align: center;
+    width: 50vw; 
+}
+
+.submit{
+    width: 150px;
+    height: 40px;
+    border: color-mix(in srgb, gold 100%, orange 10%) groove 12px;
+}
+textarea{
+    background-color: gold;
+    color: gray;
+    height: 35vh;
+    width: 300px;
+    border: color-mix(in srgb, gold 100%,orange 10%) groove 30px;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.pp{
+    border: color-mix(in srgb, gold 100%, orange 10%) 5px ;
+   border-style: inset;
+   width:175px;
+}
+input::placeholder{
+    background-color: gold;
+    color: grey;
+    text-align: unset;
+    border: color-mix(in srgb, gold 100%, orange 10%) inset 3px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+.thanks{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgb(255, 217, 0);
+}
+footer{
+    text-align: right;
+    color: rgb(218, 188, 14);
+}
+.last{
+    background-color: color-mix(in srgb, grey 100%, wheat 10%);
+    width: 500px;
+    border: color-mix(in srgb, orange 100%, gray 10%) inset 10px;
+}
+
+

@@ -1,0 +1,50 @@
+body{
+    background-color: grey;
+    color: gold;
+}
+.image{
+    text-align: center;
+    display: block;
+    width: 100vw;
+}
+.imgahk {
+        border: groove color-mix(in srgb, gold 100%, orange 10%) 30px;
+}
+.down{
+    display: ruby-text;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    
+}
+.services{
+    margin-left: 15px;
+    color: gold;
+    border: color-mix(in srgb, gold 90%, orange 10%) 3px outset ;
+    width: 150px;
+    text-align: center;
+    background-color: gray;
+    cursor:pointer;
+    padding: 5px;
+}
+.contact {
+    margin-left: 20px;
+    color: gold;
+    border: color-mix(in srgb, gold 90%, orange 10%) 3px outset ;
+    width:170px ;
+    text-align: center;
+    background-color: gray;
+    cursor: pointer;
+    padding: 5px;
+}
+h1{
+    text-align: center;
+    width: 100vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a h2{
+    text-align: center;
+}
+/* a{
+    display: inline;
+} */
